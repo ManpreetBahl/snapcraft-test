@@ -8,5 +8,6 @@ setup(
    author_email='manpreetsingh.bahl@gmail.com',
    python_requires='>=3.5.0',
    py_modules=['eight-puzzle-manpreet.py'],
-   install_requires=['numpy', 'scipy']
+   install_requires=['numpy', 'scipy'],
+   scripts=['bin/eight-puzzle-manpreet.py']
 )
