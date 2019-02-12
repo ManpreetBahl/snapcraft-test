@@ -14,8 +14,8 @@ parts:
     plugin: python
     python-version: python3
     python-packages: [numpy,scipy]
-    source: 'https://bitbucket.org/TheManpreetBahl/pdl/src/master/'
+    source: .
 
 apps:
   eight-puzzle-manpreet:
-    command: bin/eight-puzzle-manpreet
+    command: eight-puzzle-manpreet
