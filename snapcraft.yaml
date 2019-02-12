@@ -1,0 +1,21 @@
+name: eight-puzzle-manpreet
+version: git
+summary: EightPuzzleManpreet
+description: >
+  A simple Python app that solves pre-defined 8 puzzle
+  problems using misplaced, manhattan, and euclidean
+  heuristics with both BFS and A* search algorithms.
+
+grade: stable
+confinement: strict
+
+parts:
+  eight-puzzle-manpreet:
+    plugin: python
+    python-version: python3
+    python-packages: [numpy,scipy]
+    source: .
+
+apps:
+  eight-puzzle-manpreet:
+    command: bin/eight-puzzle-manpreet
