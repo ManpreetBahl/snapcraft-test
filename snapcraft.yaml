@@ -18,4 +18,4 @@ parts:
 
 apps:
   eight-puzzle-manpreet:
-    command: bin/eight-puzzle-manpreet
+    command: eight-puzzle-manpreet
