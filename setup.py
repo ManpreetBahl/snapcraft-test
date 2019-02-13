@@ -13,5 +13,6 @@ setup(
    author_email='manpreetsingh.bahl@gmail.com',
    python_requires='>=3.5.0',
    packages=['source'],
-   install_requires=get_requirements()
+   install_requires=get_requirements(),
+   scripts=['bin/eight-puzzle-manpreet']
 )
