@@ -14,5 +14,5 @@ setup(
    python_requires='>=3.5.0',
    packages=['source'],
    install_requires=get_requirements(),
-   scripts=['bin/eight-puzzle-manpreet']
+   scripts=['bin/eight-puzzle-manpreet.py']
 )
